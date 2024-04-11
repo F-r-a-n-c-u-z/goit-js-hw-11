@@ -14,7 +14,8 @@ export function addPictures(images) {
         comments,
         downloads,
       }) => {
-        return `<li class="gallery-item">
+        return `
+        <li class="gallery-item">
   <a class="gallery-link" href="${largeImageURL}">
     <img
       class="gallery-image"
